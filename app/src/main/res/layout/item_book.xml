@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Autor do Livro"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:id="@+id/textview_title"
+        android:textSize="18sp"
+
+        />
+
+
+    <TextView
+        android:id="@+id/textview_genre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Genero"
+        android:textColor="@color/white"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:textSize="18sp"
+        android:textAlignment="center"
+        android:background="@drawable/rounded_teal"
+        app:layout_constraintTop_toBottomOf="@id/textview_title"
+        app:layout_constraintStart_toStartOf="@id/textview_title"
+
+        />
+
+    <TextView
+        android:id="@+id/textview_autor"
+        android:layout_width="wrap_content"
+        android:layout_height="22dp"
+        android:text="Autor"
+        android:textSize="16sp"
+        android:layout_marginLeft="10dp"
+        android:textAlignment="center"
+        app:layout_constraintStart_toEndOf="@id/textview_genre"
+        app:layout_constraintTop_toTopOf="@id/textview_genre"
+        app:layout_constraintBottom_toBottomOf="@id/textview_genre"
+
+        />
+
+    <View
+
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:background="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textview_genre"
+        android:layout_marginTop="12dp"
+        />
+
+    <ImageView
+        android:id="@+id/favorite"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:src="@drawable/ic_favorite"
+        />
+</androidx.constraintlayout.widget.ConstraintLayout>
