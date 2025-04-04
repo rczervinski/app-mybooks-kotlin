@@ -1,7 +1,7 @@
 # APLICATIVO MYBOOKS
  Feito para fins de aprendizado, o aplicativo permite você favoritar, remover e filtrar seus livros favoritos.  
   Essa é a versão sem banco de dados, onde não podemos adicionar um livro.  
-  Os livros são de diversos autores e diversas categorias, onde cada categoria tem um tratamento espeical no layout.  
+  Os livros são de diversos autores e diversas categorias, onde cada categoria tem um tratamento especial no layout.  
 
 # FUNCIONAMENTO
  - NAVBAR COM DOIS ELEMENTOS, Home e Favoritos.  
