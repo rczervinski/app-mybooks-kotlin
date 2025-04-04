@@ -7,7 +7,7 @@
  - NAVBAR COM DOIS ELEMENTOS, Home e Favoritos.  
  - Ao clicar no titulo do livro, você pode ver seus detalhes, assim como remover, e favoritar.  
  - Mensagem de tratemento caso você não tenha livros favoritados.
- - Layouts feitos em ConstraintLayout e Fragmentes em RelativeLayout.
+ - Layouts feitos em ConstraintLayout e Fragments em RelativeLayout.
 
 
 # LAYOUT 
